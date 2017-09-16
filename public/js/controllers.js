@@ -20,7 +20,7 @@ angular.module("shiptApp", ['ngRoute'])
         $scope.followersAvailable = false;
         var page = 1;
         $scope.triggerHTTPCall = function() {
-            if((''+$scope.userName).length > 3)
+            if((''+$scope.userName).length > 2)
                 $scope.getUser();
 
         }
@@ -35,7 +35,7 @@ angular.module("shiptApp", ['ngRoute'])
 
                 if(response.data.followers > 0) {
                     $scope.followersAvailable = true;
-                    if(response.data.followers > 30 )
+                    if(response.data.followers > 20 )
                         $scope.nextPayload = true;
                     else $scope.nextPayload = false;
                     userService.getFollowers($scope.userName, 1).then(function(response) {
