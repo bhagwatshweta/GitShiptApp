@@ -39,9 +39,9 @@ Reason behind using Node JS is, it is  Asynchronous I/O, Node.js is Javascript. 
 
  Link to your resume or public profile
 -------------------------------------
-      * LinkedIn - https://www.linkedin.com/in/shweta-bhagwat/
-      * Github   - https://github.com/bhagwatshweta
-      * Resume   - https://drive.google.com/file/d/0B5RkjiXomL9wYnNUY01PWGJtNmM/view?usp=sharing
+      *LinkedIn - (https://www.linkedin.com/in/shweta-bhagwat/)
+      *Github   - https://github.com/bhagwatshweta
+      *Resume   - https://drive.google.com/file/d/0B5RkjiXomL9wYnNUY01PWGJtNmM/view?usp=sharing
       
 Link to the hosted application
 ```
