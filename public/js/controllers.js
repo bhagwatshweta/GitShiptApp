@@ -35,7 +35,7 @@ angular.module("shiptApp", ['ngRoute'])
 
                 if(response.data.followers > 0) {
                     $scope.followersAvailable = true;
-                    if(response.data.followers > 20 )
+                    if(response.data.followers > 10 )
                         $scope.nextPayload = true;
                     else $scope.nextPayload = false;
                     userService.getFollowers($scope.userName, 1).then(function(response) {
@@ -47,7 +47,7 @@ angular.module("shiptApp", ['ngRoute'])
         };
         $scope.loadData = function() {
             page = page + 1;
-            if(page >= $scope.userDetailsData.followers/30 ) {
+            if(page >= $scope.userDetailsData.followers/10 ) {
                 $scope.nextPayload = false;
             }
             else {
