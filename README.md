@@ -21,7 +21,7 @@ GitHub service to search for the GitHub username which returns the GitHub handle
 Solution:
 - Users are supposed to enter the useraname in the input box. 
 -  After that ‘getUserDetail( )’ method will be called which will get the user information from the GitHub       API. User’s followers list will be called by ‘getFollowers( )’ method. 
-- Initially 20 followers will be displayed on the screen for more followers there is ‘load more >>’ link present at the bottom of displayed followers. 
+- There is ‘load more >>’ link present at the bottom of displayed followers to display more followers. 
 - to reduce the number of API calls for single letter username, user who has length of username greater than two will get automatically retrieved the user details but if length of username is greater than two, user has to click the search button to retrieve the information. 
 
 Technologies Used
