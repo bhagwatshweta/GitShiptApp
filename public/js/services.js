@@ -1,5 +1,5 @@
 /**
- * Created by gauravshinde on 9/15/17.
+ * Created by bhagwatshweta on 9/9/17.
  */
 angular.module('shiptApp')
     .factory('userService', function($http, $log) {

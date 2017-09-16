@@ -1,5 +1,5 @@
 /**
- * Created by gauravshinde on 9/15/17.
+ * Created by bhagwatshweta on 9/9/17.
  */
 
 angular.module("shiptApp", ['ngRoute'])
@@ -19,11 +19,12 @@ angular.module("shiptApp", ['ngRoute'])
         $scope.displayed = false;
         $scope.followersAvailable = false;
         var page = 1;
-
         $scope.triggerHTTPCall = function() {
             if((''+$scope.userName).length > 3)
                 $scope.getUser();
+
         }
+
         $scope.getUser = function() {
             userService.getUserDetail($scope.userName).then(function(response){
                 $scope.notFound = false;

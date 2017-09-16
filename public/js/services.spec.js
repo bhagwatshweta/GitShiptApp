@@ -1,5 +1,5 @@
 /**
- * Created by gauravshinde on 9/15/17.
+ * Created by bhagwatshweta on 9/9/17.
  */
 describe('userService', function() {
     var userService, httpBackend;
