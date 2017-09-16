@@ -37,7 +37,7 @@ Reason behind the technical choices
 Reason behind choosing AngularJS is it can do all of the heavy lifting on the client, while providing a rich, fast experience for the end user along with that there are features into AngularJS which make testing AngularJS applications easy.
 Reason behind using Node JS is, it is  Asynchronous I/O, Node.js is Javascript.  So the same language can be used on the backend and frontend.   This means it breaks down the boundaries between front- and back-end development.
 
- Link to your resume or public profile
+ Link to Resume and public profile
 -------------------------------------
  * LinkedIn - https://www.linkedin.com/in/shweta-bhagwat/
  * Github   - https://github.com/bhagwatshweta
